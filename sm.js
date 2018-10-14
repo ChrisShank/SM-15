@@ -154,7 +154,7 @@
 
   NOTCH_AF = 0.3;
 
-  MAX_AF = MIN_AF * NOTCH_AF * (RANGE_AF - 1);
+  MAX_AF = MIN_AF + NOTCH_AF * (RANGE_AF - 1);
 
   MAX_GRADE = 5;
 
